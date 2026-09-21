@@ -13,7 +13,6 @@ start_date = datetime.now() - timedelta(days=NO_OF_DAYS)
 rows = []
 
 for i in range(NO_OF_DAYS):
-    
     current_date = 0
     insta_mins = 1
     youttube_mins = 2
