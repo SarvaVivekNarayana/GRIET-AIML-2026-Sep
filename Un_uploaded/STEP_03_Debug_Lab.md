@@ -1,4 +1,3 @@
-
 - [Step 3 — Debug Lab](#step-3--debug-lab)
   - [The mindset](#the-mindset)
   - [The detective method](#the-detective-method)
@@ -9,6 +8,7 @@
   - [Questions to ask yourself for silent bugs](#questions-to-ask-yourself-for-silent-bugs)
   - [The three most expensive habits in real jobs](#the-three-most-expensive-habits-in-real-jobs)
   - [Exit thought](#exit-thought)
+
 
 # Step 3 — Debug Lab
 

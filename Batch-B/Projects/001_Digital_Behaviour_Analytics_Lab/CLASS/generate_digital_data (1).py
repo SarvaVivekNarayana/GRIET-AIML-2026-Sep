@@ -12,7 +12,7 @@ Everyone in the class gets DIFFERENT NUMBERS.
 So the steps are identical for everyone,
 but the findings are genuinely yours.
 
-HOW TO RUN
+HOW TO RUN2
 ----------
     python generate_digital_data.py
 
