@@ -1,4 +1,4 @@
-'''#app name
+''''''#app name
 APP = "Instagram"
 
 minutes = []
@@ -84,11 +84,64 @@ maximum = np.max(insta_array)
 
 
 help(insta_array)
-
-
-
-
-
-
-
   
+'''
+
+'''
+s = "GRIET College Nizampet Hyderabad"
+l = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+s.upper().reverse().casefold() #Operator chaining
+
+ans = s.split().upper()
+
+#    TEIRG EGELLOC TEPMAZIN DABAREDYH 
+
+#Iterables 
+
+for i in ["abc", "def", "ghi"]: 
+
+
+yield'''
+
+'''Ellipsis
+...
+
+public static void main(String...args) 
+
+Spread Operator (JavaScript)
+
+Packing and Unpacking (Python)
+
+
+Filter Function
+
+s = "GRIET College Nizampet Hyderabad"
+
+filtered = filter(lambda x: x.isalpha(), s.split())
+
+print( " ".join(word[::-1] for word in input().split()) )'''
+
+
+
+s = [int(num) for num in input().split() if num&1]  # num&1 Binary Operaotor to check odd numbers
+
+s = list(filter(lambda x: x%2, [int(num) for num in input().split()])) 
+
+#lamda functions are anonymous functions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
