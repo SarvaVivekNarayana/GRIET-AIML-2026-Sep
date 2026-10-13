@@ -3,8 +3,8 @@ import pandas as pd
 
 df = pd.read_csv('day02_usage.csv')
 
-# apps = ["Chat","Video","Study","Games"]
-apps = np.array(df.columns)
+apps = ["Chat","Video","Study","Games"]
+# apps = np.array(df.columns)
 
 #Part A
 # arr = [df[f"{i}"].to_numpy() for i in apps]
@@ -45,6 +45,9 @@ print(dict(zip(values,freq.tolist()))) #Read only once memory
 
 shares = arr/per_day[:,None]*100
 
+# a/b[:,None] => (5,3)/(5,1)
+# a/c => (5,3)/(3,)
+
 '''shares2 = arr.mean(axis=1)
 
 print(shares)
@@ -58,4 +61,20 @@ shape
   (30,)  We cannot expand/stretch this to another column in numpy 
 (30,1) 
 '''
+
+per_app_max = arr.max(axis = 0)
+# share = arr/per_app_max[None,:]
+# arr/per_app => (30,4)/(1,4)
+share = arr/per_app_max
+#  arr/per_app => (30,4)/(4,)
+
+# Part E
+
+weekend = (df["Day"]%7 == 6) | (df["Day"]%7 == 0)
+print(df[weekend].mean(axis=0))
+print(df[~weekend].mean(axis=0))
+
+# df.loc[per_day.argmax(),"Day"]
+print(per_day.argmax()+1)
+
 
